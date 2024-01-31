@@ -22,13 +22,14 @@
 	<p>Next, we will need to create a remote repository to push the local repository to:</p>
 	<ol>
 		<li>Proceed to <a href="https://github.com/">Github</a> and log in</li>
-		<li>Create a new public or private repository called <code>comp1054-lesson-4</code> or something like that</li>
+		<li>Create a new public or private repository called <code>comp1054-lesson-4</code> or something like that - <strong>don't add a README.md file</strong> - we will do this later</li>
 	</ol>
 	<h2>Push the Local Repository to the Remote</h2>
 	<p>Finally, we need to add the remote repository as the origin for your local repository:</p>
 	<ol>
-		<li>In the VSCode terminal, type <code>git remote add origin https://github.com/[your_username]/[your_repository_name]</code></li>
-		<li>Upload the files and folders in your local repository to the remote with <code>git push origin main</code></li>
+		<li>In the VSCode terminal, type <code>git remote add origin https://github.com/[your_username]/[your_repository_name]</code> (the URL ends with <code>.git</code>)</li>
+		<li><code>git branch -M main</code> (sets the current active branch to 'main')</li>
+		<li>Upload the files and folders in your local repository to the remote with <code>git push -u origin main</code></li>
 		<li>Go back to <a href="https://github.com/">Github</a> and refresh the remote repository page to verify the push worked.</li>
 	</ol>
 	<p>Learn more about working with Git at <a href="https://git-scm.com/">https://git-scm.com/</a>.</p>
