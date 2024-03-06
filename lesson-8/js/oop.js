@@ -3,7 +3,7 @@ const output = document.getElementById('output');
 /* STEP 1a: Create a new object using a regular function */
 
 
-/* STEP 1b: Use the console to create a new vehicle object, and then invoke the function represented using .description() */
+/* STEP 1b: Use the console to create a new album object, and then invoke the function represented using .describe() */
 
 
 /* STEP 2a: In order to be a bit more concise, JavaScript allows us to use constructor functions - rewrite the above function, without returning anything. Capitalize the name of the function. */
@@ -12,7 +12,7 @@ const output = document.getElementById('output');
 /* STEP 2b: Use the console to create a couple of different albums, using the 'new' keyword, and again invoking the .describe() method for each one */
 
 
-/* STEP 3a: Build the complete constructor for the object Vehicle (comment out the above functions first). Include full vehicle name (manufacturer and model), year, type, colour, and description (function). */
+/* STEP 3a: Build the complete constructor for the object Album (comment out the above functions first). Include album name, artist, year, number of tracks, and description (function). */
 
 
 
@@ -24,7 +24,7 @@ const output = document.getElementById('output');
 // album2['artist']
 // album2.numTracks
 // album2.year
-/* STEP 3d: Invoke a method belonging to one of the Vehicle objects */
+/* STEP 3d: Invoke a method belonging to one of the album objects */
 // album2.describe()
 // album3.describe()
 
