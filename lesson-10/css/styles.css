@@ -24,7 +24,7 @@ header p {
 /* section styles */
 section {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin-bottom: 5rem;
 }
 section article {
