@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+html {
+	box-sizing: border-box;
+  }
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	font-family: sans-serif;
 	font-size: 150%;
