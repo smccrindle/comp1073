@@ -32,6 +32,7 @@ section article {
 	box-shadow: 0 2px 14px grey;
 	padding: 2.5%;
 	width: 25%
+	margin: 0 1%;
 }
 article img {
 	display: block;
