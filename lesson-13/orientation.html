@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Window API - Device Orientation | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/normalize.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+	<script src="js/orientation.js" defer></script>
+</head>
+
+<body>
+	<h1>Window API - Device Orientation</h1>
+	<p id="status"></p>
+	<dl id="latlong">
+		<dt>Alpha (rotation):</dt>
+		<dd id="alpha">
+			<input type="range" name="alpha" 
+         min="0" max="359" value="0" step="1" disabled>
+			<output></output>
+		</dd>
+		<dt>Beta (tilt toward/away):</dt>
+		<dd id="beta">
+			<input type="range" name="beta" 
+         min="-180" max="179" value="0" step="1" disabled>
+			<output></output>
+		</dd>
+		<dt>Gamma (tilt left/right):</dt>
+		<dd id="gamma">
+			<input type="range" name="gamma" 
+         min="-90" max="89" value="0" step="1" disabled>
+			<output></output>
+		</dd>
+	</dl>
+</body>
+</html>
