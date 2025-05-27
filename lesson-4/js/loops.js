@@ -53,4 +53,8 @@ var outputDo = '';
 console.log(outputDo);
 /* …now try to loop through the same array backwards! */
 
+/* STEP 5: The elegant FOREACH loop (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) */
+
+
+
 // This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
